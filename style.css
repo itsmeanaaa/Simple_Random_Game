@@ -1,0 +1,78 @@
+body{
+	background-color: #1AB1AD;
+}
+#pressme{
+	opacity: 1;
+	background-color: #16aa65;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 30px;
+    display:block;
+    color:white;
+    border: none;
+    outline:none;
+    margin: 400px 0px 0px 560px;
+}
+#heading{
+	float: left;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+#heading.fade, #pressme.fade{
+	opacity: 0;
+}
+h1{
+	color: white;
+	font-size: 70px;
+}
+#game{
+	opacity: 0;
+}
+#game.fadein{
+	opacity:1;
+	margin-left: 300px;
+	margin-top: -200px;
+}
+.form{
+	color:white;
+	font-size: 50px;
+}
+.guessSubmit{
+	background-color: #16aa65;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 30px;
+    display:block;
+    color:white;
+    border: none;
+    outline:none;
+   margin-top: 20px;
+   margin-left: 250px;
+}
+.guessField{
+	width: 20%;
+	height: 30px;
+}
+.resultParas{
+	color:white;
+	margin-left: -200px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.lastResult{
+	margin-left: 500px;
+	font-size: 40px;
+}
+#start{
+	background-color: #16aa65;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 30px;
+    display:block;
+    color:white;
+    border: none;
+    outline:none;
+}
